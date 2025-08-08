@@ -1,9 +1,8 @@
-const botaoExtrair = document.querySelector("#botao-palavrachave");
 
-botaoExtrair.addEventListener("click", Felipe);
+const botaoMostraPalavras = document.querySelector("#botao-palavrachave"); 
 
-function Felipe() { 
-    console.log ("O Felipe vai aprender a fazer algo!");
+botaoMostraPalavras.addEventListener("click", mostraPalavrasChave); 
+
+function mostraPalavrasChave() { 
   alert("fui clicado!"); 
-  
 } 
