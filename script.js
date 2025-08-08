@@ -1,4 +1,4 @@
-const botaoExtrair = document.querySelector('#botao-palavrachave');
+const botaoExtrair = document.querySelector("#botao-palavrachave");
 
 botaoExtrair.addEventListener("click", Felipe);
 
